@@ -176,6 +176,11 @@ window.onload = function() {
      const ctx = canvas.getContext('2d');
      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+     do {
+       var radius = (prompt("Radius: "))
+       if (radius == null) {
+           break;
+
 };
 
 /*
